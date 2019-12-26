@@ -48,8 +48,8 @@ public class HomeFragment extends Fragment {
         List<List>lists=new ArrayList<>();
 
         if(MainActivity.list.isEmpty()){
-            MainActivity.list.add(new Students("Salman Khan","Mumbai","male",50));
-            MainActivity.list.add(new Students("Salman Khan","Mumbai","male",50));
+            MainActivity.list.add(new Students("Cristiano Ronaldo","Portugal","male",34));
+            MainActivity.list.add(new Students("Lionel Messi","Spain","male",33));
             StudentAdapter studentAdapter=new StudentAdapter(getContext(),MainActivity.list);
             recyclerView.setAdapter(studentAdapter);
             recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
